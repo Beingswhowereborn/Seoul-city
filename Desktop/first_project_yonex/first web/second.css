@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+.header .main-logo {
+  text-decoration: none;
+}
+
+.header {
+  background-color: black;
+  padding: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.header .link {
+  text-decoration: none;
+  padding: 12px 16px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  float: left;
+}
+
+.right-link {
+  float: right !important;
+}
+
+.banner {
+  text-align: center;
+  padding: 60px;
+  background-color: aliceblue;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  position: relative;
+}
+
+.main {
+  flex: 66.6666%;
+  background-color: none;
+  position: relative;
+}
+
+.sub {
+  flex: 33.3333%;
+  background-color: yellow;
+}
+
+.img-sub {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(20%, 100%);
+  color: #fff;
+  font-size: 120%;
+}
+
+.btn-img {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn-img:hover {
+  background-color: tomato;
+  transition: 0.7s;
+}
+
+.post {
+  text-align: center;
+  padding: 12px 24px;
+  margin: 16px;
+  background-color: #fbfbfb;
+  position: absolute;
+  margin-top: 48px;
+}
+
+#second-post {
+  text-align: center;
+  padding: 12px 24px;
+  margin: 16px;
+  background-color: #fbfbfb;
+  position: absolute;
+  margin-top: 200px;
+}
+
+.post-desc {
+  text-align: justify !important;
+}
+
+.button-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.follow {
+  margin-right: auto;
+  background-color: #fff;
+  border: 1px solid #000000;
+  color: #000;
+  padding: 8px 16px;
+}
+
+.follow:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.reply {
+  margin-left: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+}
+
+.reply:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000000;
+}
+
+.writer-img {
+  float: left;
+}
+
+.writer-desc {
+  float: left;
+  margin-left: 16px;
+  text-align: left;
+}
