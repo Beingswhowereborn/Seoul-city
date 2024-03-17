@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/css/reset.css">
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .listswiper {
+      width: 100%;
+      margin: 0px auto;
+      /* height: 100%; */
+    }
+
+    .listswiper .swiper-slide {
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+    }
+
+    .listswiper .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .listswiper .swiper-pagination {
+        bottom: 0;
+        border:2px dashed blue; 
+    }
+
+    .listswiper .swiper-pagination .swiper-pagination-bullet { /* 메뉴 설정 */
+	opacity:0.9; 
+}
+
+/*  */
+
+.tea-item-sub  {
+    text-align: left;
+}
+
+.tea-item-sub p {
+    font-size: 14px;
+    line-height: 1.2;
+    word-break: keep-all;
+}
+
+.tea-item-sub .strong {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.item-box {
+    display: flex;
+    align-items: center;
+}
+
+.item-box .tea-product-thumb {
+    width: 96px!important;
+    height: auto!important;
+    display: block;
+}
+
+.total-item-wrap {
+    padding: 40px 0;
+}
+
+.tea-item-sub {
+    margin-left: 22px;
+}
+
+.tea-item-sub .strong {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1;
+}
+    
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper listswiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+
+                <!-- <div class="tea-item">
+                    <a href="#"><img class="tea-product-thumb" src="./img/tea-item1.png" alt=""></a>
+                    <div class="tea-item-sub">
+                        <a href="#">
+                        <p>가을걷기 30포 종합</p>
+                        <p class="strong">22,000원</p>
+                        <span class="new-item">신제품</span>
+                         </a>
+                </div> -->
+
+                    <div class="total-item-wrap">
+                          <div class="item-box">
+
+                              <a href="#"><img class="tea-product-thumb" src="./img/tea-item1.png" alt=""></a>
+
+
+                              <div class="tea-item-sub">
+                              <a href="#">
+                                  <p>가을걷기 30포 종합</p>
+                                  <p class="strong">22,000원</p>
+                              </a>
+                              </div>
+
+                          </div>
+
+                          <div class="item-box">
+
+                              <a href="#"><img class="tea-product-thumb" src="./img/tea-item2.png" alt=""></a>
+
+
+                              <div class="tea-item-sub">
+                              <a href="#">
+                                  <p>가을걷기 30포 종합</p>
+                                  <p class="strong">22,000원</p>
+                              </a>
+                              </div>
+
+                          </div>
+
+                          <div class="item-box">
+
+                              <a href="#"><img class="tea-product-thumb" src="./img/tea-item3.png" alt=""></a>
+
+
+                              <div class="tea-item-sub">
+                              <a href="#">
+                                  <p>가을걷기 30포 종합</p>
+                                  <p class="strong">22,000원</p>
+                              </a>
+                              </div>
+
+                          </div>
+                    </div>
+
+
+
+       
+      </div>
+      <!-- slide 1 -->
+
+      <div class="swiper-slide">
+         <div class="total-item-wrap">
+                          <div class="item-box">
+
+                              <a href="#"><img class="tea-product-thumb" src="./img/tea-item1.png" alt=""></a>
+
+
+                              <div class="tea-item-sub">
+                              <a href="#">
+                                  <p>가을걷기 30포 종합</p>
+                                  <p class="strong">22,000원</p>
+                              </a>
+                              </div>
+
+                          </div>
+
+                          <div class="item-box">
+
+                              <a href="#"><img class="tea-product-thumb" src="./img/tea-item1.png" alt=""></a>
+
+
+                              <div class="tea-item-sub">
+                              <a href="#">
+                                  <p>가을걷기 30포 종합</p>
+                                  <p class="strong">22,000원</p>
+                              </a>
+                              </div>
+
+                          </div>
+
+                          <div class="item-box">
+
+                              <a href="#"><img class="tea-product-thumb" src="./img/tea-item1.png" alt=""></a>
+
+
+                              <div class="tea-item-sub">
+                              <a href="#">
+                                  <p>가을걷기 30포 종합</p>
+                                  <p class="strong">22,000원</p>
+                              </a>
+                              </div>
+
+                          </div>
+                    </div>
+      </div>
+      <!-- slide 2 end -->
+
+      <div class="swiper-slide">
+        <div class="total-item-wrap">
+            <div class="item-box">
+
+                <a href="#"><img class="tea-product-thumb" src="./img/tea-item1.png" alt=""></a>
+
+
+                <div class="tea-item-sub">
+                <a href="#">
+                    <p>가을걷기 30포 종합</p>
+                    <p class="strong">22,000원</p>
+                </a>
+                </div>
+
+            </div>
+
+            <div class="item-box">
+
+                <a href="#"><img class="tea-product-thumb" src="./img/tea-item1.png" alt=""></a>
+
+
+                <div class="tea-item-sub">
+                <a href="#">
+                    <p>가을걷기 30포 종합</p>
+                    <p class="strong">22,000원</p>
+                </a>
+                </div>
+
+            </div>
+
+            <div class="item-box">
+
+                <a href="#"><img class="tea-product-thumb" src="./img/tea-item1.png" alt=""></a>
+
+
+                <div class="tea-item-sub">
+                <a href="#">
+                    <p>가을걷기 30포 종합</p>
+                    <p class="strong">22,000원</p>
+                </a>
+                </div>
+
+            </div>
+      </div>
+      </div>
+
+
+
+
+      <!-- swiper-wrapper end -->
+    </div>
+
+
+
+
+
+
+    <div class="swiper-pagination"></div>
+  </div>
+
+  </div>
+
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var listswiper = new Swiper(".listswiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+
+</html>
